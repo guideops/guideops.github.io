@@ -7,7 +7,7 @@
 <script>
   // TikTok requires an https redirect URI on a verified domain; Guidant runs on
   // localhost. This page just forwards the OAuth response to the local server.
-  window.location.replace('http://localhost:3000/api/connect/tiktok/callback' + window.location.search);
+  window.location.replace('http://localhost:3100/api/connect/tiktok/callback' + window.location.search);
 </script>
 <p>If nothing happens, make sure Guidant Studio is running on <code>localhost:3000</code>, then reload this page.</p>
 </body></html>
